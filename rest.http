@@ -1,0 +1,17 @@
+###Get a list of all  calculatrice operations
+GET http://localhost:3001/all
+
+
+### Create an operation
+POST http://localhost:3001/addition
+POST http://localhost:3001/soustraction
+POST http://localhost:3001/multiplication
+POST http://localhost:3001/division
+Content-Type: application/json
+
+{
+     "firstinput": 20,
+     "secondinput":5
+}
+
+
